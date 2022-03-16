@@ -1,0 +1,194 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    background-color: #1f2937;
+    font-family: 'Roboto', 'Montserrat', serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 1000;
+}
+
+header *,
+.main *{
+    color: #f9faf8;
+    background-color: #1f2937;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    margin: 10px;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.main {
+    gap:300px;
+    margin: 70px;
+    background-color: #1f2937;
+}
+
+.imgWrap {
+    position: relative;
+    flex: 1;
+}
+
+.page img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.textBlock {
+    flex: 1;
+}
+
+.textBlock * {
+    margin: 10px;
+}
+
+.Title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.button {
+    border-radius: 20px;
+    background-color: #3882f6;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 5px 20px;
+    border: none;
+}
+
+.Alt {
+    flex-direction: column !important;
+    width: 100%;
+    background-color: #f9faf8;
+}
+
+.Alt2 {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    flex-direction: column !important;
+    width: 100%;
+    align-items: center;
+    padding: 64px 0;
+}
+
+.container {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    margin:32px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0;
+}
+
+.boxItem {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 30px;
+}
+
+.boxText {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.info {
+    align-self: center;
+    margin: 5rem;
+}
+
+.colorMain {
+    color: #f9faf8;
+    background-color: #1f2937;
+}
+
+.colorAlt {
+    color: #1f2937;
+}
+
+.Quote, 
+.QuoteSub {
+    font-size: 36px;
+    flex: 1;
+    max-width: 800px;
+}
+
+.Quote {
+    font-style: italic;
+}
+
+.QuoteSub {
+    font-weight: 900;
+    text-align: right;
+    width: inherit;
+    padding-right: 5%;
+}
+
+.actionBox {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-around;
+    max-width: 50%;
+    margin: 100px auto;
+    padding: 50px 0;
+    border-radius: 20px;
+}
+
+.actionBox * {
+    color: #f9faf8;
+}
+
+.actionButton {
+    flex: 0 0 auto;
+    margin: auto 0;
+    border: solid 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    color: #f9faf8;
+    text-align: center;
+    padding: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
